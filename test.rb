@@ -7,7 +7,7 @@ class Account
   
   def display_balance(pin_number)
     if pin_number == pin
-      puts "Balance #{balance}"
+      puts "Balance is #{balance}"
     else
       puts pin_error
     end
